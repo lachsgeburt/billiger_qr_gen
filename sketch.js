@@ -18,7 +18,6 @@ let settings = {
 
 function setup() {
   createCanvas(400, 400,SVG);
-  canvas.parent('qrContainer');
   noLoop();
   generateQR();
 
